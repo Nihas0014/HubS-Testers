@@ -1,0 +1,9 @@
+local Lib = loadstring(game:HttpGet('https://raw.githubusercontent.com/canadagoosefromthe24/canadasmenu/main/CarnoUIlib.lua'))()
+local CategoryVariableHere= Lib:Category("Welcome Tester")
+CategoryVariableHere:Button("Test",function() --[[function here]] end)
+CategoryVariableHere:Toggle("Test",function(State) --[[function here, State is true/false]] end)
+CategoryVariableHere:Label("Test")
+CategoryVariableHere:Slider("Test",0,10,100,function(Val) --[[function here, 0 = min, 10 = default, 100 = max, Val is the number the user selected]] end)
+CategoryVariableHere:Dropdown("Test",{"Options","Like","This"},function(Selected) --[[function here, Selected is the option the user selected]] end)
+Lib:SetTop("CategoryNameHere") -- Lib is the variable you set for your library
+Lib:Reload() -- Lib is the variable you set for your library
