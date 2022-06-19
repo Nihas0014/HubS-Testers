@@ -1,0 +1,393 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/GreenDeno/Venyx-UI-Library/main/source.lua"))()
+local venyx = library.new("Guest 666 Hub", 5013109572)
+
+-- first page
+local page = venyx:addPage("Discord", 5012544693)
+local section1 = page:addSection("Link To Server : https://discord.gg/UHDzPeCUCy")
+local section2 = page:addSection("Section 2")
+
+section2:addKeybind("Close/Open Hub", Enum.KeyCode.One, function()
+print("Activated Keybind")
+venyx:toggle()
+end, function()
+print("Changed Keybind")
+end)
+
+
+
+
+local page = venyx:addPage("Scripts", 5012544693)
+local section1 = page:addSection("Game Section")
+
+
+section1:addButton("Prisoner life V1", function()
+print("Clicked")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/XTheMasterX/Scripts/Main/PrisonLife'),true))()
+end)
+
+section1:addButton("Prisoner life V2", function()
+print("Clicked")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nihas0014/Long-scripts-in-smaler/main/Prisoner%20life%20V2'),true))()
+end)
+
+section1:addButton("Prisoner life V3", function()
+print("Clicked")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nihas0014/Long-scripts-in-smaler/main/Pirsoner%20Life%20V3'),true))()
+end)
+
+section1:addButton("Da Hood v1", function()
+print("Clicked")
+loadstring(game:HttpGet(("https://raw.githubusercontent.com/Airsoft0001/dh/main/dh"),true))()
+end)
+
+section1:addButton("Da Hood v2", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Dimag16/DimagX_NEW/main/dimagx', true))()
+end)
+
+section1:addButton("Da Hood V3", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LPrandom/lua-projects/master/encryptgui.lua"))()
+end)
+
+section1:addButton("Da Hood V4", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SpaceYes/Lua/Main/DaHood.Lua'))()
+end)
+
+section1:addButton("Adopt Me", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+section1:addButton("Adopt Me V2", function()
+print("Clicked")
+getgenv().mainKey = "nil"
+local a,b,c,d,e=loadstring,request or http_request or (http and http.request) or (syn and syn.request),assert,tostring,"https://api.eclipsehub.xyz/auth"c(a and b,"Executor not Supported")a(b({Url=e.."\?\107e\121\61"..d(mainKey),Headers={["User-Agent"]="Eclipse"}}).Body)()
+end)
+
+section1:addButton("Bed Wars V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+end)
+
+section1:addButton("Bed Wars v2", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/OofHead-FE/Sigma-Jello/main/RobloxSigma5.lua",true))()
+end)
+
+section1:addButton("Bed Wars V3", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/joeengo/Future/main/loadstring.lua', true))()
+end)
+
+section1:addButton("Jailbreak V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Jailbreak/Script.lua"))()
+end)
+
+section1:addButton("Arsenal V1", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+end)
+
+section1:addButton("Arsenal V2", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Jaytojuice/Bolts-Hub/main/Script/Free_Executors", true))()
+end)
+
+section1:addButton("Arsenal V3", function()
+print("Clicked")
+loadstring(game:HttpGet(("https://darkhub.xyz/remote-script.lua"), true))()
+end)
+
+section1:addButton("Bee Swarm Simulator V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Boxking776/kocmoc/main/kocmoc-remastered.lua"))()
+end)
+
+section1:addButton("Bee Swarm Simulator V2", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/35"))()
+end)
+
+section1:addButton("Bee Swarm Simulator V3", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/29"))()
+end)
+
+section1:addButton("Rag Doll Engine V1", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/martinelcrac/cryptonichub/main/Ragdollengine.lua'))()
+end)
+
+section1:addButton("Pet Sim X V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TurfuGoldy/GoldenScripts/main/EzPets.lua"))() 
+end)
+
+section1:addButton("Pet Sim X V2", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/HazeNx/Euphoria/main/EuphoriaHUB.lua"))()
+end)
+
+section1:addButton("Pet Sim X V3", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/1"))()
+end)
+
+section1:addButton("The Wild West V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/KeoneGithub/KeoneGithub/main/WildWestLean"))()
+end)
+
+section1:addButton("The Wild West V2", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/The-Wild-One'))()
+end)
+
+section1:addButton("Yotuber Life V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Scripts/main/YouTube%20Life/Auto%20Farm.lua"))()
+end)
+section1:addButton("Sonic Speed V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+end)
+
+section1:addButton("Sonic Speed V2", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/destylol/masterhubv311/itachi/Main.lua"))()
+end)
+
+section1:addButton("Ro Ghoul V1", function()
+print("Clicked")
+loadstring(game:HttpGetAsync(("https://raw.githubusercontent.com/z4gs/scripts/master/Ro-Ghoul%20Auto%20Farm.lua")))()
+end)
+
+section1:addButton("Combat Warriors V1 ", function()
+print("Clicked")
+loadstring(game:HttpGet("https://projecthook.xyz/scripts/free.lua"))()
+end)
+
+section1:addButton("Combat Warriors V2 ", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/IsaaaKK/cwhb/main/cw.txt"))()
+end)
+
+section1:addButton("Brookhaven V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://gist.githubusercontent.com/TurkOyuncu99/93d59eb6d826262396d8436868e73033/raw/eaa85b6545ff8a06fe89d7093cb3666461b628e8/gaga", true))()
+end)
+
+section1:addButton("Project Lazarus V1 ", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Bluntman420n/fucns/main/FUCKYOUCUNT.BLUNT", true))()
+end)
+
+section1:addButton("Your Bizarre Adventure V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/InoriHub/Your-Weird/main/weird.lua"))()
+end)
+
+section1:addButton("Your Bizarre Adventure V2", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tobias020108Back/YBA-AUT/main/YBA-GUI-Rewrite.lua"))()
+end)
+
+section1:addButton("Your Bizarre Adventure V3", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/Xenon"))()
+end)
+
+section1:addButton("Breaking Point V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/MostafaXc00dy/MostafaXc00dy/main/OutlawsHub/Free/V6.lua"))()
+end)
+
+section1:addButton("Broken Bones IV 1", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/zReal-King/Broken-Bones-IV/main/Inf-Cash'))()
+end)
+
+section1:addButton("Blox Fruits v1", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Cve-Hub/LUNARHUBnewUI/main/Protected%20(14).lua'))()
+end)
+
+section1:addButton("Blox Fruits v2", function()
+print("Clicked")
+loadstring(game:HttpGet("https://github.com/HazeNx/shimbo/raw/main/euphoria.lua"))()
+end)
+
+section1:addButton("Goal Kick Simulator V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/Scripts/main/GoalKickSimulator"))()
+end)
+
+section1:addButton("Goal Kick Simulator V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/Scripts/main/GoalKickSimulator"))()
+end)
+
+section1:addButton("Goal Kick Simulator V2", function()
+print("Clicked")
+loadstring(game:HttpGet"https://thedragonslayer2.github.io")()
+end)
+
+section1:addButton("Goal Kick Simulator V3", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SunkenMuch/Soggyware/main/Main',true))()
+end)
+
+section1:addButton("Shindo Life V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/PremierHub/Data/main/code.lua"))()
+end)
+
+section1:addButton("Shindo Life V2", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Web/main/scripts/SnxwHub.txt"))()
+end)
+
+section1:addButton("Shindo Life V3", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/scriptpastebin/raw/main/InfiniteSpin"))()
+end)
+
+section1:addButton("Rise of Nations V1", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/insanedude59/RiseOfNationsGui/main/OpenSource.lua"))();
+end)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+local page = venyx:addPage("Fe Scripts", 5012544693)
+local section1 = page:addSection("Fe Section")
+
+section1:addButton("Pendulum Hub V5", function()
+print("Clicked")
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Tescalus/Pendulum-Hubs-Source/main/Pendulum%20Hub%20V5.lua"))()
+end)
+section1:addButton("Sword King", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/SwordSimIsGood/Sword-SG/main/Swords%20FE%20Starmd'))()
+end)
+
+section1:addButton("Sword Hacker", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Nihas0014/Long-scripts-in-smaler/main/Sword%20Hacker',true))()
+end)
+
+section1:addButton("Syntax V2", function()
+print("Clicked")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Memeboiyot/SyntaxRebornOfficial/main/SyntaxReborn'),true))()
+end)
+
+section1:addButton("Syntax V1.3", function()
+print("Clicked")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nihas0014/Long-scripts-in-smaler/main/SyntaX%20V3'),true))()
+end)
+
+section1:addButton("Syntax V3", function()
+print("Clicked")
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/Nihas0014/Long-scripts-in-smaler/main/SyntaX%20v3'),true))()
+end)
+
+section1:addButton("Cheems Ware V3", function()
+print("Clicked")
+loadstring(game:HttpGet("https://nexo.notxeneon15.repl.co/cheemsware.lua"))()
+end)
+
+
+
+
+
+
+
+
+
+
+
+local page = venyx:addPage("Setings", 5012544693)
+local section1 = page:addSection("Section")
+
+section1:addButton("Avarat Chnager", function()
+print("Clicked")
+loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\73\110\118\111\111\107\101\114\49\49\47\79\117\116\102\105\116\47\109\97\105\110\47\79\117\116\102\105\116\67\111\112\105\101\114\46\108\117\97\34\44\32\116\114\117\101\41\41\40\41\10")()
+end)
+
+section1:addButton("Chat Hax", function()
+print("Clicked")
+	loadstring(game:HttpGet('https://raw.githubusercontent.com/ant-7802/--/main/straightmilk.lua'))()
+end)
+
+section1:addButton("DomaniX", function()
+print("Clicked")
+loadstring(game:HttpGet('https://raw.githubusercontent.com/shlexware/DomainX/main/source',true))()
+end)
+
+section1:addButton("c00lkid", function()
+print("Clicked")
+loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+end) 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-- themes
+local themes = {
+Background = Color3.fromRGB(24, 24, 24),
+Glow = Color3.fromRGB(0, 0, 0),
+Accent = Color3.fromRGB(10, 10, 10),
+LightContrast = Color3.fromRGB(20, 20, 20),
+DarkContrast = Color3.fromRGB(14, 14, 14),  
+TextColor = Color3.fromRGB(255, 255, 255)
+}
+-- second page
+local theme = venyx:addPage("Theme", 5012544693)
+local colors = theme:addSection("Colors")
+
+for theme, color in pairs(themes) do -- all in one theme changer, i know, im cool
+colors:addColorPicker(theme, color, function(color3)
+venyx:setTheme(theme, color3)
+end)
+end
+
+-- load
+venyx:SelectPage(venyx.pages[1], true)
